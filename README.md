@@ -9,18 +9,13 @@
 
 建议配合 [0.3.7.20210106.1425051](https://github.com/MiPushFramework/MiPushFramework/releases/tag/0.3.7.20210106.1425051) 使用 因为只有这个做了测试
 
-解决方法很暴力
+## 已知问题
 
-```kotlin
-findMethod("com.xiaomi.push.service.MyMIPushNotificationHelper", lpparam.classLoader) { 
-    name == "getClickedPendingIntent"
-}.hookBefore {
-    val paramPushMetaInfo = it.args[2] ?: return@hookBefore
-    val extra = paramPushMetaInfo.invokeMethodAs<MutableMap<String, String>>("getExtra") ?: return@hookBefore
-    if (extra["web_uri"] != null) return@hookBefore
-    extra["web_uri"] = extra["intent_uri"] ?: return@hookBefore
-}
-```
+只能修复形如`bilibili://root`的应用链接
+
+不能修复形如`intent:#Intent...`的
+
+可以在设置里启用`debug: add intent_uri`来确认
 
 ## 鸣谢
 - [EzXHelper](https://github.com/KyuubiRan/EzXHelper)
