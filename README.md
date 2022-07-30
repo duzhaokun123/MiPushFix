@@ -9,6 +9,10 @@
 
 建议配合 [0.3.7.20210106.1425051](https://github.com/MiPushFramework/MiPushFramework/releases/tag/0.3.7.20210106.1425051) 使用 因为只有这个做了测试
 
+# DEPRECATED
+
+那个 mipush 没啥用 官方都弃坑了的样子 修他干什么
+
 ## 已知问题
 
 只能修复形如`bilibili://root`的应用链接
