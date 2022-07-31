@@ -11,7 +11,10 @@
 
 # DEPRECATED
 
-那个 mipush 没啥用 官方都弃坑了的样子 修他干什么
+使用 https://github.com/MiPushFramework/MiPushFramework/releases/tag/0.3.6.20200315.1bd534f
+即可
+
+修他干什么
 
 ## 已知问题
 
