@@ -1,3 +1,8 @@
+# DEPRECATED
+
+使用 https://github.com/NihilityT/MiPushFramework
+即可
+
 # MiPushFix
 
 [![GitHub license](https://img.shields.io/github/license/duzhaokun123/MiPushFix?style=flat-square)](https://github.com/duzhaokun123/MiPushFix/blob/main/LICENSE)
@@ -8,11 +13,6 @@
 这个模块应该部分解决了 [mipush](https://github.com/MiPushFramework/MiPushFramework) 点通知不跳转应用的问题
 
 建议配合 [0.3.7.20210106.1425051](https://github.com/MiPushFramework/MiPushFramework/releases/tag/0.3.7.20210106.1425051) 使用 因为只有这个做了测试
-
-# DEPRECATED
-
-使用 https://github.com/MiPushFramework/MiPushFramework/releases/tag/0.3.6.20200315.1bd534f
-即可
 
 修他干什么
 
